@@ -6,7 +6,8 @@ The easiest way for using DataForSEO APIs with Node.js. Library is fully written
 
 This package can be installed with your favorite package manager
 
-Yarn: `yarn add DFS-client-api NPM: `npm install data-for-seo-api
+Yarn: `yarn add data-for-seo-api`
+NPM: `npm install data-for-seo-api`
 
 ## Usage
 
