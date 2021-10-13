@@ -2,16 +2,24 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "jsx": "react-native",
     "lib": ["ESNext"],
     "module": "CommonJS",
     "noEmitOnError": true,
+    "moduleResolution": "node",
     "outDir": "./lib",
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
     "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true /* Raise error on expressions and declarations with an implied 'any' type. */,
+    "strictNullChecks": true /* Enable strict null checks. */,
+    "strictFunctionTypes": true /* Enable strict checking of function types. */,
+    "noUnusedLocals": true /* Report errors on unused locals. */,
+    "noUnusedParameters": true /* Report errors on unused parameters. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */
   },
-  "exclude": ["**/__tests__/*"],
-  "include": ["src"]
+  "exclude": ["node_modules", "**/__tests__/*"],
+  "include": ["src/**/*.ts"]
 }
